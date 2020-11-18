@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F8666DFE2564FC400046DA98 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8666DFD2564FC400046DA98 /* Meal.swift */; };
 		F879913925639F520000CD7F /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F879913825639F520000CD7F /* RatingControl.swift */; };
 		F8AD06452562BB31007E730A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AD06442562BB31007E730A /* AppDelegate.swift */; };
 		F8AD06472562BB31007E730A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AD06462562BB31007E730A /* SceneDelegate.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F8666DFD2564FC400046DA98 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		F879913825639F520000CD7F /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 		F8AD06412562BB31007E730A /* FoodTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8AD06442562BB31007E730A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				F8AD06482562BB31007E730A /* ViewController.swift */,
 				F879913825639F520000CD7F /* RatingControl.swift */,
 				F8AD064A2562BB31007E730A /* Main.storyboard */,
+				F8666DFD2564FC400046DA98 /* Meal.swift */,
 				F8AD064D2562BB34007E730A /* Assets.xcassets */,
 				F8AD064F2562BB34007E730A /* LaunchScreen.storyboard */,
 				F8AD06522562BB34007E730A /* Info.plist */,
@@ -261,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8666DFE2564FC400046DA98 /* Meal.swift in Sources */,
 				F879913925639F520000CD7F /* RatingControl.swift in Sources */,
 				F8AD06492562BB31007E730A /* ViewController.swift in Sources */,
 				F8AD06452562BB31007E730A /* AppDelegate.swift in Sources */,
