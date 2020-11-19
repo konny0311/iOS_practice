@@ -45,6 +45,7 @@
                                     <outlet property="nameLabel" destination="hD8-Sw-IHt" id="exM-5X-7AK"/>
                                     <outlet property="photoImageView" destination="veE-gj-tWs" id="LNv-Jc-ZLG"/>
                                     <outlet property="ratingControl" destination="V4b-fG-KlU" id="Ylx-PV-yvt"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="ShowDetail" id="AGi-5R-D0j"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -70,11 +71,11 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="MealViewController" customModule="FoodTracker" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Cvr-iL-gBZ">
-                                <rect key="frame" x="20" y="76" width="374" height="478"/>
+                                <rect key="frame" x="20" y="108" width="374" height="478"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter meal name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YFG-S0-zX3">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="92"/>
@@ -178,9 +179,12 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yds-SY-bAZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="923.1884057971015" y="64.285714285714278"/>
+            <point key="canvasLocation" x="971" y="449"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="AGi-5R-D0j"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="defaultPhoto" width="593" height="593"/>
         <systemColor name="systemBackgroundColor">
